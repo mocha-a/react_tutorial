@@ -1,0 +1,30 @@
+.text{color: pink;}
+header{
+    text-align: center;
+    a{
+        display: inline-block;
+        margin: 50px 30px;
+        &.active{
+            color: pink;
+        }
+    }
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+    dl{
+        margin: 0; padding: 0;
+        dt{ /* 제목 */
+            text-align: center;
+            padding: 10px 0;
+            background-color: #eee;
+        }
+        dd{ /* 내용 */
+            margin: 0;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+            line-height: 2;
+        }
+    }
+}
