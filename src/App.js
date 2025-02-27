@@ -14,7 +14,7 @@ function App() {
   // 여기는 스크립트 공간
 
   return (
-    <BrowserRouter basename='/react_tutorial'>
+    <BrowserRouter>
       {/* 여기는 HTML 공간~ : JSX문법 */}
       <header>
         <NavLink to="/">HOME</NavLink>
