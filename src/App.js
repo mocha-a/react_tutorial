@@ -8,7 +8,7 @@ import Deploy from './page/Deploy';
 
 import './style.scss';
 
-// imrr, rpce
+// imrr, rfce
 
 function App() {
   // 여기는 스크립트 공간
