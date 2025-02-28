@@ -4,7 +4,6 @@ function Router() {
     const t1 = "import { BrowserRouter, Route, NavLink, Routes } from 'react-router-dom';";
     const t2 = `
     <BrowserRouter>
-
     <header>
         <NavLink to="/">HOME</NavLink>
         <NavLink to="/scc">CSS</NavLink>
@@ -12,7 +11,6 @@ function Router() {
         <NavLink to="/StateProps">State & Props</NavLink>
         <NavLink to="/Deploy">Deploy</NavLink>
     </header>
-
 
     <main>
         <Routes>
@@ -23,7 +21,6 @@ function Router() {
         <Route path="/deploy" element={<Deploy/>} />
         </Routes>
     </main>
-
     </BrowserRouter>
     `
     return (
